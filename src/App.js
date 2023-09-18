@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import MainPages from "../components/pages/MainPages";
+import phoneitem from "../components/phone-item/phoneitem";
+import Header from "../components/headers/Header";
+import PhoneCover from "../components/PhoneCover/PhoneCover"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <MainPages/>
+      <phoneitem/>
+      <Header/>
+      <PhoneCover/>
     </div>
   );
 }

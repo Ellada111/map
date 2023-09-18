@@ -1,0 +1,7 @@
+.phone-cover{
+    height: 100px;
+    width: 100%;
+    background-position: centre;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}

@@ -1,0 +1,14 @@
+.phoneitem{
+    text-decoration: none;
+    color: black;
+    width: 300px;
+    height: 300px;
+}
+.phoneitem_title {
+    font-size: 18 px;
+    color:blueviolet;
+}
+.phoneitem_price {
+    font-size: 15 px;
+    color:green; 
+}
